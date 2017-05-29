@@ -1,0 +1,10 @@
+name = Views tag display view
+description = Add tags to a display view, those tags are only for administration purpose.
+package = Views
+core = 7.x
+
+dependencies[] = views_ui
+
+; files to load.
+files[] = views_tag_display_view.views.inc
+files[] = views_tag_display_view_plugin_display_code.inc
