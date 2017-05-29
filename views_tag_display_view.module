@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * @file
+ * Drupal *.module file.
+ */
+
+/**
+ * @return array
+ */
+function views_tag_display_view_views_api() {
+  return [
+    'api' => 3,
+  ];
+}
