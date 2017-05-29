@@ -4,13 +4,6 @@
 class views_tag_display_view_plugin_display_code extends views_plugin_display_extender {
 
   /**
-   * Provide a form to edit options for this plugin.
-   */
-  function option_definition(&$options) {
-    $options['views_tag_display_view'] = array('default' => '');
-  }
-
-  /**
    * Provide the form to set new option.
    */
   function options_form(&$form, &$form_state) {
