@@ -10,7 +10,7 @@ function views_tag_display_view_views_plugins() {
     'title' => t('display view tags'),
     'help' => t('Add tags to a display view'),
     'path' => $path,
-    'handler' => '_views_tagdisplayview_plugin_display_code',
+    'handler' => 'views_tag_display_view_plugin_display_code',
   ];
   return $plugins;
 }
